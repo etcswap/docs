@@ -11,15 +11,15 @@ module.exports = {
     // From node
     nodeEnv: process.env.NODE_ENV,
   },
-  title: 'Uniswap',
+  title: 'ETCswap',
   tagline: 'Documentation and Guides',
-  url: 'https://docs.uniswap.org',
+  url: 'https://docs.etcswap.org',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.png',
-  organizationName: 'Uniswap', // Usually your GitHub org/user name.
-  projectName: 'Uniswap-docs', // Usually your repo name.
+  organizationName: 'etcswap', // Usually your GitHub org/user name.
+  projectName: 'v3-docs', // Usually your repo name.
   themeConfig: {
     image: 'img/twitter_card_bg.jpg',
     prism: {
@@ -31,9 +31,9 @@ module.exports = {
       appId: 'S0IDD0YGLZ',
     },
     navbar: {
-      title: 'Uniswap Docs',
+      title: 'ETCswap V3 Docs',
       logo: {
-        alt: 'Uniswap Unicorn',
+        alt: 'ETCswap Logo',
         src: 'img/uni_dark_icon.svg',
       },
       items: [
@@ -74,7 +74,7 @@ module.exports = {
           className: 'persistent',
         },
         {
-          href: 'https://github.com/uniswap/uniswap-docs',
+          href: 'https://github.com/etcswap/v3-docs',
           label: 'GitHub',
           position: 'right',
           className: 'persistent',
@@ -99,7 +99,7 @@ module.exports = {
             },
             {
               label: 'Bug Bounty',
-              href: 'https://github.com/Uniswap/uniswap-v3-periphery/blob/main/bug-bounty.md',
+              href: 'https://github.com/etcswap/v3-periphery/blob/main/bug-bounty.md',
             },
             {
               label: '#dev-chat',
@@ -115,20 +115,20 @@ module.exports = {
           title: 'Github',
           items: [
             {
-              label: 'uniswap-v3-core',
-              href: 'https://github.com/Uniswap/uniswap-v3-core',
+              label: 'v3-core',
+              href: 'https://github.com/etcswap/v3-core',
             },
             {
-              label: 'uniswap-v3-sdk',
-              href: 'https://github.com/Uniswap/uniswap-v3-sdk',
+              label: 'v3-sdk',
+              href: 'https://github.com/etcswap/v3-sdk',
             },
             {
-              label: 'uniswap-v3-periphery',
-              href: 'https://github.com/Uniswap/uniswap-v3-periphery',
+              label: 'v3-periphery',
+              href: 'https://github.com/etcswap/v3-periphery',
             },
             {
               label: 'Deployment addresses',
-              href: 'https://github.com/Uniswap/uniswap-v3-periphery/blob/main/deploys.md',
+              href: 'https://github.com/etcswap/v3-periphery/blob/main/deploys.md',
             },
           ],
         },
@@ -137,15 +137,15 @@ module.exports = {
           items: [
             {
               label: 'Home',
-              href: 'https://uniswap.org/',
+              href: 'https://etcswap.org/',
             },
             {
               label: 'App',
-              href: 'https://app.uniswap.org/',
+              href: 'https://app.etcswap.org/',
             },
             {
               label: 'Analytics',
-              href: 'https://info.uniswap.org/home',
+              href: 'https://info.etcswap.org/home',
             },
             {
               label: 'Token Lists',
@@ -153,7 +153,7 @@ module.exports = {
             },
             {
               label: 'Brand Assets',
-              href: 'https://uniswap.org/Uniswap_brand_assets.zip',
+              href: 'https://github.com/etcswap/brand-assets',
             },
           ],
         },
@@ -162,19 +162,19 @@ module.exports = {
           items: [
             {
               label: 'Governance',
-              href: 'https://gov.uniswap.org/',
+              href: 'https://gov.etcswap.org/',
             },
             {
               label: 'Discord',
-              href: 'https://discord.gg/ybKVQUWb4s',
+              href: 'https://discord.gg/jt5fhVFQFw',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/Uniswap',
+              href: 'https://twitter.com/EthClassicDAO',
             },
             {
               label: 'Blog',
-              href: 'https://uniswap.org/blog/',
+              href: 'https://etcswap.org/blog/',
             },
           ],
         },
@@ -203,7 +203,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           remarkPlugins: [math],
           rehypePlugins: [katex],
-          editUrl: 'https://github.com/uniswap/uniswap-docs/tree/main/',
+          editUrl: 'https://github.com/etcswap/v3-docs/tree/main/',
           includeCurrentVersion: true,
         },
         blog: {
