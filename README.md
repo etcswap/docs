@@ -1,6 +1,6 @@
 # ETCswap Documentation
 
-This web application contains all documentation for ETCswap products. It is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+This web application contains all documentation for ETCswap products, including ETCswapV2 and ETCswapV3 protocols. It is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 
 # Project Layout
