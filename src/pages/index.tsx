@@ -6,7 +6,7 @@ import styled from '@emotion/styled'
 import Discord from '@site/static/img/discord.svg'
 import GitHub from '@site/static/img/github.svg'
 import Npm from '@site/static/img/npm.svg'
-import UGP from '@site/static/img/UGP.png'
+import ECO from '@site/static/img/ECO.png'
 import Layout from '@theme/Layout'
 import ThemedImage from '@theme/ThemedImage'
 import { TraceEvent } from '@uniswap/analytics'
@@ -23,44 +23,44 @@ import SearchBarWithAnalytics from '../theme/SearchBar'
 
 export const actions = [
   {
-    title: 'What is Uniswap',
+    title: 'What is ETCswap',
     icon: Info,
     to: '/concepts/overview',
-    text: `Learn about the core concepts of the Uniswap Protocol, Swaps, Pools, Concentrated Liquidity and more.`,
+    text: `Learn about the core concepts of the ETCswap Protocol, Swaps, Pools, Concentrated Liquidity and more.`,
   },
   {
-    title: 'Integrate with Uniswap',
+    title: 'Integrate with ETCswap',
     icon: HelpCircle,
     to: '/sdk/v3/overview',
-    text: `Learn how to integrate with Uniswap by building a dApp through guided examples.`,
+    text: `Learn how to integrate with ETCswap by building an application through guided examples.`,
   },
   {
-    title: 'The Uniswap smart contracts',
+    title: 'The ETCswap smart contracts',
     icon: BookOpen,
     to: '/contracts/v3/overview',
-    text: `Learn about the architecture of the Uniswap Protocol smart contracts through guided examples.`,
+    text: `Learn about the architecture of the ETCswap Protocol smart contracts through guided examples.`,
   },
 ]
 
 export const developerLinks = [
   {
-    title: 'uniswap-v3-core',
-    href: 'https://github.com/Uniswap/uniswap-v3-core',
+    title: 'v3-core',
+    href: 'https://github.com/etcswap/v3-core',
     icon: GitHub,
   },
   {
-    title: 'uniswap-v3-sdk',
-    href: 'https://github.com/Uniswap/uniswap-v3-sdk',
+    title: 'v3-sdk',
+    href: 'https://github.com/etcswap/v3-sdk',
     icon: GitHub,
   },
   {
-    title: 'uniswap-v3-periphery',
-    href: 'https://github.com/Uniswap/uniswap-v3-periphery',
+    title: 'v3-periphery',
+    href: 'https://github.com/etcswap/v3-periphery',
     icon: GitHub,
   },
   {
     title: 'Deployment addresses',
-    href: 'https://github.com/Uniswap/uniswap-v3-periphery/blob/main/deploys.md',
+    href: 'https://github.com/etcswap/v3-periphery/blob/etcswap/deploys.md',
     icon: GitHub,
   },
   {
@@ -298,7 +298,7 @@ const StyledIcon = styled.div`
 
 export default function Home() {
   return (
-    <Layout title={`Uniswap Docs`} description="Technical Documentation For The Uniswap Protocol">
+    <Layout title={`ETCswap Docs`} description="Technical Documentation For The Uniswap Protocol">
       <Container>
         <DocsHeader>
           <div
@@ -310,15 +310,15 @@ export default function Home() {
               alignItems: 'center',
             }}
           >
-            <h1 style={{ fontWeight: 600 }}> Welcome to Uniswap Docs</h1>
+            <h1 style={{ fontWeight: 600 }}> Welcome to the ETCswap Docs</h1>
             <HideMedium>
               <SearchBarWithAnalytics />
             </HideMedium>
           </div>
           <StyledTitleImage
             sources={{
-              light: useBaseUrl('/img/grow.png'),
-              dark: useBaseUrl('/img/grow2.png'),
+              light: useBaseUrl('/img/etc-bg1.png'),
+              dark: useBaseUrl('/img/etc-bg2.png'),
             }}
           />
           <Row>
@@ -355,8 +355,8 @@ export default function Home() {
           }}
         >
           <div>
-            <h2>Integrate your dApp</h2>
-            <p>Explore these guided tutorials to get started integrating with Uniswap in your dApp.</p>
+            <h2>Integrate your Application</h2>
+            <p>Explore these guided tutorials to get started integrating with ETCswap in your application.</p>
             <div>
               {dAppGuides.map((action) => (
                 <TraceEvent
@@ -385,7 +385,7 @@ export default function Home() {
           </div>
           <div>
             <h2>Integrate your smart contracts</h2>
-            <p>Explore these guided tutorials to get started integrating with Uniswap in your smart contracts.</p>
+            <p>Explore these guided tutorials to get started integrating with ETCswap in your smart contracts.</p>
             <div>
               {smartContractGuides.map((action) => (
                 <TraceEvent
@@ -466,7 +466,7 @@ export default function Home() {
             section={SectionName.BOTTOM_MENU_LINKS}
             name={SharedEventName.PAGE_CLICKED}
           >
-            <Link style={{ textDecoration: 'none' }} href={'https://discord.gg/ybKVQUWb4s'}>
+            <Link style={{ textDecoration: 'none' }} href={'https://ethereumclassic.org/discord'}>
               <CenterCard>
                 <Discord style={{ width: '48px', height: '48px' }} />
                 <div>
@@ -482,12 +482,12 @@ export default function Home() {
             section={SectionName.BOTTOM_MENU_LINKS}
             name={SharedEventName.PAGE_CLICKED}
           >
-            <Link style={{ textDecoration: 'none' }} href={'https://gov.uniswap.org/'}>
+            <Link style={{ textDecoration: 'none' }} href={'https://reddit.com/r/ethereumclassic'}>
               <CenterCard>
                 <MessageCircle style={{ width: '48px', height: '48px' }} />
                 <div>
-                  <h3>Forum</h3>
-                  <p>Discuss governance and more.</p>
+                  <h3>Reddit</h3>
+                  <p>Discuss Ethereum Classic and more.</p>
                 </div>
               </CenterCard>
             </Link>
@@ -498,14 +498,14 @@ export default function Home() {
             element={ElementName.GITHUB}
             name={SharedEventName.PAGE_CLICKED}
           >
-            <Link style={{ textDecoration: 'none' }} href={'https://github.com/Uniswap'}>
+            <Link style={{ textDecoration: 'none' }} href={'https://github.com/etcswap'}>
               <CenterCard>
                 <StyledIcon>
                   <GitHub style={{ width: '48px', height: '48px' }} />
                 </StyledIcon>
                 <div>
                   <h3>GitHub</h3>
-                  <p>View all Uniswap repositories.</p>
+                  <p>View all ETCswap repositories.</p>
                 </div>
               </CenterCard>
             </Link>
@@ -518,7 +518,7 @@ export default function Home() {
             margin: '0 auto 4rem auto',
             width: '100%',
           }}
-          href={'https://unigrants.org/'}
+          href={'https://eco.ethereumclassic.com'}
         >
           <WideCard
             style={{
@@ -528,12 +528,11 @@ export default function Home() {
               gap: '24px',
             }}
           >
-            <img src={UGP} width={'120px'} />
+            <img src={ECO} width={'120px'} />
             <div>
-              <h2 style={{ marginBottom: '0.5rem' }}>Uniswap Grants Program</h2>
+              <h2 style={{ marginBottom: '0.5rem' }}>Earn with the ECO Token</h2>
               <p style={{ margin: '0rem' }}>
-                Uniswap Governance offers grant funding for people who are building apps, tools, and activities for
-                Uniswap Protocol users, builders, and community members.{' '}
+              Learn more about the Ethereum Classic DeFi ecosystem token.{' '}
               </p>
             </div>
           </WideCard>

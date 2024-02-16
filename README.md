@@ -2,6 +2,24 @@
 
 This web application contains all documentation for ETCswap products, including ETCswapV2 and ETCswapV3 protocols. It is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
+ETCswap is derivative software of the most popular EVM application,Uniswap. It adds support for the Ethereum Classic network following development best practices. ETCswap is a foundational DeFi primitive the network's application layer can rely on as it continues its organic growth.
+
+* The protocol is compliant with global financial regulations.
+* The protocol is non-custodial, which means end users have control of their funds at all times without the need for intermediaries.
+* The frontend user interface is hosted on the decentralized web via IPFS, which means end users will always be able to locally host the frontend and interact with the smart contracts.
+* The smart contracts are not updatable, meaning they are immutable and resistant to censorship.
+* The ETCswap protocols are deploy on the most censorship resistant smart contract blockchain, which means users will have access to this protocol as long as the network is alive and relevant.
+* Users are free to make their own liquidity pools and deploy their own versions of the open source front end.
+* There is no ability to restrict access to the smart contracts and open source front end.
+
+Ethereum Classic is a decentralised continuation of the original Ethereum Virtual Machine launched in July, 2015. To date, Ethereum Classic is the largest Proof of Work blockchain network with Smart Contract functionality.
+
+To understand the rationale of this project and the importance of protocol deployment to the Ethereum Classic network for the macro-EVM ecosystem and the blockchain industry as a whole, please give these documents a read:
+
+## Literature
+* [Why Classic?](https://ethereumclassic.org/why-classic)
+* [The Ethereum Classic Declaration of Independence](https://ethereumclassic.org/blog/2016-08-13-declaration-of-independence)
+* [The Ethereum Classic Foundation](https://ethereumclassic.org/knowledge/foundation)
 
 # Project Layout
 

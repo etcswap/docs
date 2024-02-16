@@ -34,7 +34,7 @@ module.exports = {
       title: 'ETCswap V3 Docs',
       logo: {
         alt: 'ETCswap Logo',
-        src: 'img/uni_dark_icon.svg',
+        src: 'img/etcswap_logo.svg',
       },
       items: [
         {
