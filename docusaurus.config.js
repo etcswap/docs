@@ -21,7 +21,7 @@ module.exports = {
   organizationName: 'etcswap', // Usually your GitHub org/user name.
   projectName: 'v3-docs', // Usually your repo name.
   themeConfig: {
-    image: 'img/twitter_card_bg.jpg',
+    image: 'img/social-card.png',
     prism: {
       additionalLanguages: ['solidity'],
     },
@@ -31,7 +31,7 @@ module.exports = {
       appId: 'S0IDD0YGLZ',
     },
     navbar: {
-      title: 'ETCswap V3 Docs',
+      title: 'ETCswap Docs',
       logo: {
         alt: 'ETCswap Logo',
         src: 'img/etcswap_logo.svg',
@@ -62,8 +62,8 @@ module.exports = {
           className: 'V3_active',
         },
         {
-          label: 'Give Feedback',
-          to: 'https://forms.gle/13XtjmkwdXQ2jMn26',
+          label: 'Twitter',
+          to: 'https://twitter.com/EthClassicDAO',
           position: 'right',
           className: 'persistent',
         },
@@ -74,13 +74,13 @@ module.exports = {
           className: 'persistent',
         },
         {
-          href: 'https://github.com/etcswap/v3-docs',
+          href: 'https://github.com/etcswap',
           label: 'GitHub',
           position: 'right',
           className: 'persistent',
         },
         {
-          href: 'https://unigrants.org/',
+          href: 'https://etcgrantsdao.io/',
           label: 'Grants',
           position: 'right',
           className: 'persistent',
@@ -91,19 +91,19 @@ module.exports = {
       // style: "dark",
       links: [
         {
-          title: 'Developers',
+          title: 'Protocol',
           items: [
             {
-              label: 'Feedback',
-              href: 'https://forms.gle/13XtjmkwdXQ2jMn26',
+              label: 'Twitter',
+              href: 'https://twitter.com/EthClassicDAO',
             },
             {
               label: 'Bug Bounty',
-              href: 'https://github.com/etcswap/v3-periphery/blob/main/bug-bounty.md',
+              href: 'https://github.com/etcswap/v3-periphery/blob/etcswap/bug-bounty.md',
             },
             {
               label: '#dev-chat',
-              href: 'https://discord.gg/ybKVQUWb4s',
+              href: 'https://ethereumclassic.org/discord',
             },
             {
               label: 'Whitepaper',
@@ -128,7 +128,7 @@ module.exports = {
             },
             {
               label: 'Deployment addresses',
-              href: 'https://github.com/etcswap/v3-periphery/blob/main/deploys.md',
+              href: 'https://github.com/etcswap/v3-periphery/blob/etcswap/deploys.md',
             },
           ],
         },
@@ -136,8 +136,8 @@ module.exports = {
           title: 'Ecosystem',
           items: [
             {
-              label: 'Home',
-              href: 'https://etcswap.org/',
+              label: 'ECO',
+              href: 'https://eco.ethereumclassic.com',
             },
             {
               label: 'App',
@@ -158,23 +158,27 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Ethereum Classic',
           items: [
             {
-              label: 'Governance',
-              href: 'https://gov.etcswap.org/',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/jt5fhVFQFw',
+              label: 'Website',
+              href: 'https://ethereumclassic.org',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/EthClassicDAO',
+              href: 'https://twitter.com/ETC_network',
             },
             {
-              label: 'Blog',
-              href: 'https://etcswap.org/blog/',
+              label: 'Discord',
+              href: 'https://ethereumclassic.org/discord',
+            },
+            {
+              label: 'News',
+              href: 'https://ethereumclassic.org/news',
+            },
+            {
+              label: 'Reddit',
+              href: 'https://reddit.com/r/ethereumclassic',
             },
           ],
         },
