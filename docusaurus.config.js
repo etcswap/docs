@@ -63,7 +63,7 @@ module.exports = {
         },
         {
           label: 'Twitter',
-          to: 'https://twitter.com/EthClassicDAO',
+          to: 'https://twitter.com/ETCswap_org',
           position: 'right',
           className: 'persistent',
         },
@@ -95,7 +95,7 @@ module.exports = {
           items: [
             {
               label: 'Twitter',
-              href: 'https://twitter.com/EthClassicDAO',
+              href: 'https://twitter.com/ETCswap_org',
             },
             {
               label: 'Bug Bounty',
@@ -103,7 +103,7 @@ module.exports = {
             },
             {
               label: '#dev-chat',
-              href: 'https://ethereumclassic.org/discord',
+              href: 'https://discord.gg/EhXrGtCHr7',
             },
             {
               label: 'Whitepaper',
@@ -141,11 +141,11 @@ module.exports = {
             },
             {
               label: 'App',
-              href: 'https://app.etcswap.org/',
+              href: 'https://etcswap.org',
             },
             {
               label: 'Analytics',
-              href: 'https://info.etcswap.org/home',
+              href: 'https://info.etcswap.org',
             },
             {
               label: 'Token Lists',
