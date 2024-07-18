@@ -60,7 +60,7 @@ export const developerLinks = [
   },
   {
     title: 'Deployment addresses',
-    href: 'https://github.com/etcswap/v3-periphery/blob/etcswap/deploys.md',
+    href: 'https://github.com/etcswap',
     icon: GitHub,
   },
   {
@@ -530,7 +530,7 @@ export default function Home() {
           >
             <img src={USC} width={'120px'} />
             <div>
-              <h2 style={{ marginBottom: '0.5rem' }}>USC stablecoin</h2>
+              <h2 style={{ marginBottom: '0.5rem' }}>USC Stablecoin</h2>
               <p style={{ margin: '0rem' }}>
               Learn more about Classic USD, Ethereum Classic's fiat-backed stablecoin.{' '}
               </p>
