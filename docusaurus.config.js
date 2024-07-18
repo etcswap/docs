@@ -128,7 +128,7 @@ module.exports = {
             },
             {
               label: 'Deployment addresses',
-              href: 'https://github.com/etcswap/v3-periphery/blob/etcswap/deploys.md',
+              href: 'https://github.com/etcswap',
             },
           ],
         },
@@ -136,24 +136,28 @@ module.exports = {
           title: 'Ecosystem',
           items: [
             {
-              label: 'ECO',
-              href: 'https://eco.ethereumclassic.com',
+              label: 'V3 App',
+              href: 'https://v3.etcswap.org',
             },
             {
-              label: 'App',
-              href: 'https://etcswap.org',
-            },
-            {
-              label: 'Analytics',
+              label: 'V3 Analytics',
               href: 'https://info.etcswap.org',
+            },
+            {
+              label: 'V2 App',
+              href: 'https://v2.etcswap.org',
+            },
+            {
+              label: 'USC',
+              href: 'https://classicusd.com',
             },
             {
               label: 'Token Lists',
               href: 'https://tokenlists.org/',
             },
             {
-              label: 'Brand Assets',
-              href: 'https://github.com/etcswap/brand-assets',
+              label: 'ETCswap Brand',
+              href: 'https://github.com/etcswap/brand',
             },
           ],
         },

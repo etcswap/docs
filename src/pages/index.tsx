@@ -6,7 +6,7 @@ import styled from '@emotion/styled'
 import Discord from '@site/static/img/discord.svg'
 import GitHub from '@site/static/img/github.svg'
 import Npm from '@site/static/img/npm.svg'
-import ECO from '@site/static/img/ECO.png'
+import USC from '@site/static/img/USC.png'
 import Layout from '@theme/Layout'
 import ThemedImage from '@theme/ThemedImage'
 import { TraceEvent } from '@uniswap/analytics'
@@ -60,7 +60,7 @@ export const developerLinks = [
   },
   {
     title: 'Deployment addresses',
-    href: 'https://github.com/etcswap/v3-periphery/blob/etcswap/deploys.md',
+    href: 'https://github.com/etcswap',
     icon: GitHub,
   },
   {
@@ -466,7 +466,7 @@ export default function Home() {
             section={SectionName.BOTTOM_MENU_LINKS}
             name={SharedEventName.PAGE_CLICKED}
           >
-            <Link style={{ textDecoration: 'none' }} href={'https://ethereumclassic.org/discord'}>
+            <Link style={{ textDecoration: 'none' }} href={'https://discord.gg/EhXrGtCHr7'}>
               <CenterCard>
                 <Discord style={{ width: '48px', height: '48px' }} />
                 <div>
@@ -518,7 +518,7 @@ export default function Home() {
             margin: '0 auto 4rem auto',
             width: '100%',
           }}
-          href={'https://eco.ethereumclassic.com'}
+          href={'https://classicusd.com'}
         >
           <WideCard
             style={{
@@ -528,11 +528,11 @@ export default function Home() {
               gap: '24px',
             }}
           >
-            <img src={ECO} width={'120px'} />
+            <img src={USC} width={'120px'} />
             <div>
-              <h2 style={{ marginBottom: '0.5rem' }}>Earn with the ECO Token</h2>
+              <h2 style={{ marginBottom: '0.5rem' }}>USC Stablecoin</h2>
               <p style={{ margin: '0rem' }}>
-              Learn more about the Ethereum Classic DeFi ecosystem token.{' '}
+              Learn more about Classic USD, Ethereum Classic's fiat-backed stablecoin.{' '}
               </p>
             </div>
           </WideCard>
