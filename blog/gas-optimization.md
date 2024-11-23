@@ -7,8 +7,6 @@ authors:
     url: https://github.com/NoahZinsmeister
   - name: Connor Martin
     url: https://github.com/Yorkemartin
-  - name: Chris Mercer
-    url: https://github.com/chris-mercer
 hide_table_of_contents: true
 image: /use.png
 slug: intro-to-gas-optimization
