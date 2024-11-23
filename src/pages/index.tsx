@@ -298,7 +298,7 @@ const StyledIcon = styled.div`
 
 export default function Home() {
   return (
-    <Layout title={`ETCswap Docs`} description="Technical Documentation For The Uniswap Protocol">
+    <Layout title={`ETCswap Docs`} description="Technical Documentation For The ETCswap Protocol">
       <Container>
         <DocsHeader>
           <div
@@ -310,7 +310,7 @@ export default function Home() {
               alignItems: 'center',
             }}
           >
-            <h1 style={{ fontWeight: 600 }}> Welcome to the ETCswap Docs</h1>
+            <h1 style={{ fontWeight: 600 }}> Welcome to the ETCswap Documentation</h1>
             <HideMedium>
               <SearchBarWithAnalytics />
             </HideMedium>
@@ -466,7 +466,7 @@ export default function Home() {
             section={SectionName.BOTTOM_MENU_LINKS}
             name={SharedEventName.PAGE_CLICKED}
           >
-            <Link style={{ textDecoration: 'none' }} href={'https://discord.gg/EhXrGtCHr7'}>
+            <Link style={{ textDecoration: 'none' }} href={'https://ethereumclassic.org/discord'}>
               <CenterCard>
                 <Discord style={{ width: '48px', height: '48px' }} />
                 <div>
