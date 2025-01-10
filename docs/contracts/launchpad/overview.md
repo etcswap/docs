@@ -1,6 +1,6 @@
 ---
 id: overview
-title: ETCswap Launchpad Overview
+title: Overview
 sidebar_position: 1
 ---
 
