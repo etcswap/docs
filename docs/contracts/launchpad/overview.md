@@ -1,27 +1,17 @@
 ---
 id: overview
-title: Overview
+title: ETCswap Launchpad Overview
 sidebar_position: 1
 ---
 
-# The Uniswap V2 Smart Contracts
+## ETCswap Launchpad
 
-Welcome to the Uniswap protocol V2 docs.
+Welcome to the ETCswap Launchpad docs.
 
-The pages here contain conceptual and technical documentation of the Uniswap V2 protocol.
+The pages here contain conceptual and technical documentation of the Launchpad protocol.
 
-If you are new to Uniswap, you might want to check out the [Protocol overview](../V2/concepts/protocol-overview/how-uniswap-works) first.
+If you are new to ETCswap Launchpad, you might want to check out the [Launchpad overview](../launchpad/concepts/protocol-overview/how-launchpad-works) first.
 
-You can also take a look at the V2 Protocol <a href='/whitepaper.pdf' target='_blank' rel='noopener noreferrer'>Whitepaper</a>.
+ETCswap Launchpad allows its users to create tokens in seconds, without any required knowledge and without needing to provide liquidity.
 
-# Developer links
-
-The V2 Uniswap protocol is separated across two repositories
-
-- [`uniswap-v2-core`](https://github.com/Uniswap/uniswap-v2-core)
-- [`uniswap-v2-periphery`](https://github.com/Uniswap/uniswap-v2-periphery)
-
-The V2 SDK, which can assist developers when interacting with the Uniswap V2 Protocol can be found here.
-
-- [`uniswap-sdk`](https://github.com/Uniswap/uniswap-v2-sdk)
-- [`uniswap-sdk-core`](https://github.com/Uniswap/uniswap-sdk-core)
+The created token, which is free of charge except for gas fees, becomes instantly tradable on the platform.

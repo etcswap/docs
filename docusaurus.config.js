@@ -62,6 +62,12 @@ module.exports = {
           className: 'V3_active',
         },
         {
+          label: 'Launchpad',
+          href: '/contracts/launchpad/overview',
+          position: 'left',
+          className: 'persistent',
+        },
+        {
           label: 'V3',
           to: '/contracts/v3/overview',
           position: 'left',
@@ -70,12 +76,6 @@ module.exports = {
         {
           label: 'V2',
           to: '/contracts/v2/overview',
-          position: 'left',
-          className: 'persistent',
-        },
-        {
-          label: 'Launchpad',
-          href: '/products/launchpad/overview',
           position: 'left',
           className: 'persistent',
         },

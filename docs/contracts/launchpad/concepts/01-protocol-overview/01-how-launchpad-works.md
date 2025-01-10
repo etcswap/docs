@@ -1,6 +1,6 @@
 ---
-id: how-uniswap-works
-title: How Uniswap works
+id: how-launchpad-works
+title: How ETCswap Launchpad works
 ---
 
 ![](./images/anatomy.jpg)
