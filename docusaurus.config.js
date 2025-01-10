@@ -62,20 +62,20 @@ module.exports = {
           className: 'V3_active',
         },
         {
-          label: 'Launchpad',
-          href: '/products/launchpad/overview',
-          position: 'left',
-          className: 'persistent',
-        },
-        {
           label: 'V3',
-          to: '/products/v3/overview',
+          to: '/contracts/v3/overview',
           position: 'left',
           className: 'persistent',
         },
         {
           label: 'V2',
-          to: '/products/v2/overview',
+          to: '/contracts/v2/overview',
+          position: 'left',
+          className: 'persistent',
+        },
+        {
+          label: 'Launchpad',
+          href: '/products/launchpad/overview',
           position: 'left',
           className: 'persistent',
         },
