@@ -1,9 +1,9 @@
 ---
 id: what-is-a-bonding-curve
 title: What is a Bonding Curve
-sidebar_position: 4
 ---
 
+![](./images/landing.png)
 
 A bonding curve is a mathematical model that governs the price of a token based on the supply and demand dynamics. It creates a direct relationship between the price of a token and the number of tokens available in circulation, providing a transparent and automated pricing mechanism. This model is commonly used in decentralized finance (DeFi) projects to facilitate the issuance and exchange of tokens without relying on traditional market makers.
 
@@ -36,6 +36,8 @@ Imagine a project launches a token sale using a linear bonding curve. The formul
 - The first 100 tokens will cost $1 each.
 - The next 100 tokens will cost $1.01 each.
 - The price will continue to increase by 1% for each batch of 100 tokens sold.
+
+![](./images/bonding-curve.png)
 
 ## Benefits of Using a Bonding Curve
 
