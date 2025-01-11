@@ -6,7 +6,9 @@ sidebar_position: 1
 
 ## ETCswap Launchpad
 
-Welcome to the ETCswap Launchpad docs.
+Welcome to the ETCswap Launchpad documentation.
+
+![](./images/landing.png)
 
 The pages here contain conceptual and technical documentation of the Launchpad protocol.
 
